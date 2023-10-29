@@ -1,0 +1,71 @@
+.Post{
+    background-color: #466043;
+    margin: auto;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.User{
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PictureContainer{
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Picture{
+    max-width: 100%;
+    height: auto;
+}
+
+.InfoContainer{
+    display: flex;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.ProfilePictureContainer{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfilePicture{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Actions{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.MaterialIcon{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.Liked{
+    color: red;
+}

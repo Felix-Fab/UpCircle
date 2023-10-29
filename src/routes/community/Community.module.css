@@ -1,0 +1,53 @@
+.Community{
+    width: 100%;
+    height: 100%;
+}
+
+.Title{
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'SF Pro Display', sans-serif;
+    color: white;
+}
+
+.SectionSelector{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.SelectedSelector{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+    color: white;
+    font-size: 13px;
+    background-color: #435d40;
+}
+
+.Selector{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+    color: black;
+    font-size: 13px;
+    background-color: #669d5f;
+}
+
+.RightSelector{
+    border-radius: 0 15px 15px 0;
+}
+
+.LeftSelector{
+    border-radius: 15px 0 0 15px;
+}

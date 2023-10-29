@@ -1,0 +1,62 @@
+.Rewards {
+    width: 100%;
+    height: 100%;
+}
+
+.Title {
+    margin-top: 35px;
+    margin-left: 1.4rem;
+    font-size: 30px;
+    color: white;
+}
+.Title2 {
+    margin-top: 35px;
+    margin-left: 1.4rem;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+.ScoreContainer{
+    background-color: #3d483c;
+    width: 90%;
+    margin: auto;
+    border-radius: 12px;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.ScoreTitle{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.Counter{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.CounterExpand {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MaterialIcon {
+    color: white;
+    font-size: 30px;
+}
+
+.RedeemContainer {
+    display: block;
+    margin: .8rem;
+}
+
+.RedeemLine {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.Levy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 50px;
+    border-radius: 15%;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.Picture{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+}

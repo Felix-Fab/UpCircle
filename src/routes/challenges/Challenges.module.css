@@ -1,0 +1,65 @@
+.Challenges {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+  color: white;
+  padding: .8rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+}
+
+.Challenges__headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Challenges__headline h2 {
+  font-size: 2rem;
+  
+}
+
+.Challenges__headline h3 {
+  font-weight: lighter;
+}
+
+
+.Challenges__active {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: .5rem;
+}
+
+.Challenges__available {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: .5rem
+}
+
+.TitleContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ProfilPictureContainer{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px yellow solid;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.ProfilPicture{
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}

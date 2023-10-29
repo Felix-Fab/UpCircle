@@ -1,0 +1,42 @@
+.Navbar {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Action {
+    display: block;
+    text-align: center;
+}
+
+.ActionTitle {
+    margin: 0px;
+    color: #757575;
+    font-size: 15px;
+}
+
+.ActionTitleActive {
+    margin: 0px;
+    color: #0a7df1;
+    font-size: 15px;
+}
+
+.MaterialIcons {
+    color: #757575;
+    font-size: 30px;
+}
+
+.MaterialIconsActive {
+    color: #0a7df1;
+    font-size: 30px;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

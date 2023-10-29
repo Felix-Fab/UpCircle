@@ -1,0 +1,50 @@
+.Activity {
+    background-color: #25252586;
+    border-radius: 12px;
+    margin: 10px;
+    padding: .5rem;
+    display: flex;
+}
+
+.PictureContainer {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Picture{
+    max-width: 100%;
+    height: auto;
+}
+
+.InfoContainer {
+    margin-top: 5px;
+    width: 93%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Name {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.Description {
+    color: white;
+    margin-top: 4px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.Date {
+    color: grey;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
